@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.navbar {
+    background-color: #fff;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.12);
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11.2vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 12vw;
+    cursor: pointer;
+}
+.navbar-logo img {
+    height: auto;
+    width: auto
+}
+.navbar-list li{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.6vw;
+}
+.navbar-list li a {
+    color: #ff0b36;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 25px;
+}
+
+.underline {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .underline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #ff0b36;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .underline:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

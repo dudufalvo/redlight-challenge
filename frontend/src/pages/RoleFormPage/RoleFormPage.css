@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.roleform-container {
+    width: 70vw;
+    margin: 56px 0 0 10vw;
+    min-height: 83vh;
+}
+
+.roleform-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    color: #ff0b36;
+
+    margin-bottom: 50px;
+}
+
+.roleform-title2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 32px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    color: #ff0b36;
+
+    margin-bottom: 20px;
+}
+
+.roleform-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.roleform-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    width: 60%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.roleform-box {
+    margin-top: 5px;
+    border: 1.5px solid #000000;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 20px;
+    height: 52px;
+}
+
+.roleform-file {
+    margin-top: 5px;
+}
+
+.roleform-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.button-submit {
+    cursor: pointer;
+    justify-content: center;
+    padding: 8px 3.5vw;
+
+    background: #ff0b36;
+    border-radius: 8px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+}
+
+.roleform-content-left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.footer {
+    background-color: #ff0b36;
+    padding: 30px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11.2vh;
+    width: 80vw;
+    margin: 0 auto;   
+}
+.footer-list li{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.6vw;
+}
+
+.footer-list-icon  {
+    width: 5vw;
+    height: auto;
+}
+
+
+.footer-list-icon img {
+    width: auto;
+    height: auto;
+}
+

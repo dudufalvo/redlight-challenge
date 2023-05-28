@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.rolechange {
+    display: flex;
+}
+
+.rolechange-edit {
+    width: 100%;
+    border-radius: 8px;
+    border:none;
+    border:1px black solid;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+.rolechange-edit > input{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    margin-left: 5%;
+    outline: none;
+    border: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.rolechange-select select {
+    width: 100%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.rolechange-icons {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-end;
+}

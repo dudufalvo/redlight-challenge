@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.role-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    margin-bottom: 20px;
+}
+
+.role-content {
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: black;
+}
+
+.role-form-edit {
+    width: 75%;
+    border-radius: 8px;
+    border:none;
+    border:1px black solid;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.role-form-edit > input{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    margin-left: 5%;
+    outline: none;
+    border: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.role-button {
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    margin-left: 5px;
+  }
+  
+  .role-button:hover {
+    cursor: pointer;
+  }

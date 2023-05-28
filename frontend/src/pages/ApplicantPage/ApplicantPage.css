@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.applicant-container {
+    width: 65vw;
+    height: 79vh;
+    margin: 100px 0 0 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.applicant-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.applicant-info h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 30px;
+    line-height: 49px;
+    color: #ff0b36;
+}
+
+.applicant-info h2,.applicant-info div {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 28px;
+    line-height: 49px;
+    color: black;
+}
+
+.applicant-icons {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-end;
+}
+
+.applicant-image {
+    width: 40%;
+    height: auto;
+}
+
+.applicant-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.applicant-info, .applicant-info div {
+    width: 140%;
+}
+
+.applicant-edit {
+    width: 100%;
+    border-radius: 8px;
+    border:none;
+    border:1px black solid;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.applicant-edit > input{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    margin-left: 5%;
+    outline: none;
+    border: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.applicant-role {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.accepted {
+    color: green;
+}
+
+.rejected {
+    color: red;
+}
+
+.pending {
+    color: orange;
+}

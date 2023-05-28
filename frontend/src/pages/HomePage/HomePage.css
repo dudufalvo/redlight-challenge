@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.homepage-container {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 56px 0 0 0;
+    min-height: 88.8vh;
+}
+
+.homepage-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    color: #ff0b36;
+
+    margin-bottom: 30px;
+}
+
+.homepage-cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 2%;
+}
+
+.homepage-filters {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.homepage-searchbox{
+    width: 40%;
+    border-radius: 30px;
+    border:none;
+    border:1px black solid;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.homepage-searchicon {
+    height: 30px;
+    width: 20px;
+    margin-left: 3%;
+}
+.homepage-searchbox > input{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    margin-left: 2%;
+    border: none;
+    outline: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.homepage-list li{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6vw;
+    margin-left: 20px;
+}
+.homepage-list p {
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 25px;
+
+    cursor: pointer;
+}
+
+.homepage-list button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.active {
+    color: #ff0b36 !important;
+    font-weight: 900 !important;
+}
+
+
+@media screen and (max-width: 1300px) { 
+    .homepage-cards {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 900px) { 
+    .homepage-cards {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 2%;
+    }
+}
