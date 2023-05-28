@@ -10,6 +10,7 @@ virtualenv env # create virtual environment
 source env/Scripts/activate # activate virtual environment
 pip install -r requirements.txt # install requirements
 cd backend
+python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver # starts the server 
 cd ..
